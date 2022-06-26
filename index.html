@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+
+    <style>
+        body {
+        font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+        font-size: 81.25%;
+        color: #70757a;
+    }
+    header{
+        display:flex;
+        flex-direction:row;
+        flex-wrap: nowrap;
+        align-items:center;
+        justify-content: flex-end;
+        align-items:center;
+    }
+    header div{
+        padding: 10px;
+    }
+    .nav:hover{
+        text-decoration: underline;
+        cursor:pointer;
+    }
+    .nav-img:hover{
+        background-color:#70757a;
+        border-radius: 50%;
+    }
+    input {
+        all: unset;
+        color: #000;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+    .search-footer {
+        background-color:#f8f9fa;
+        border-radius: 3px;
+        font-size:14px;
+        padding: 10px;
+        margin-left: 15px;
+    }
+    .search-footer:hover {
+        border: 1px solid #5f6368;
+    }
+
+    </style>
+</head>
+<body>
+    
+    <header>
+       
+        <div class="nav">TÜMÜ</div>
+        <div class="nav">GÖRSELLER</div>
+        <div class="nav">
+            <svg class="gb_Ue" style="fill:#70757a; width:24px;height:24px" focusable="false" viewBox="0 0 24 24" data-iml="1656275156038"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
+            
+        </div>
+        <div class="nav-img">
+            <img src="profile.png" style="fill:#70757a; border-radius: 50%; width:28px;height:28px" </img>
+        </div>
+    </header>
+
+
+
+    <div style="display:flex;
+        flex-direction:column;
+        flex-wrap: nowrap;
+        align-items:center;
+        align-content: center;
+        justify-content:center;
+        margin-top: 100px;">
+
+        <div>
+            <img width="300px" src="google_logo.svg"></img>
+        </div>
+        <div style="display:flex;
+         border: 1px solid #c7cace;
+         border-radius: 40px;
+         width: 500px;
+         padding: 10px;
+         margin-top:20px;">
+            <div><img style="width: 24px; height: 24px;" src="search.svg"></img></div>
+            <div style="width: 100%">
+                <input type="text" width="100%;">
+            </div>
+            <div><img style="width: 24px; height: 24px;" src="voice.svg"></img></div>
+        </div>
+
+    </div>
+
+
+
+
+    <div  style="display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    align-items:center;
+    align-content: center;
+    justify-content:center;
+    margin-top: 40px;">
+
+        <div class="search-footer">Google'da Ara</div>
+        <div class="search-footer">kendimi Şanslı Hissediyorum</div>
+
+    </div>
+
+</body>
+</html>
